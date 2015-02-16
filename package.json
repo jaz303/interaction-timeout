@@ -1,0 +1,24 @@
+{
+  "name": "interaction-timeout",
+  "version": "1.0.0",
+  "description": "Trigger a timeout when user has not interacted with document for a period of time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaz303/interaction-timeout.git"
+  },
+  "keywords": [
+    "interaction",
+    "timeout",
+    "screensaver"
+  ],
+  "author": "Jason Frame <jason@onehackoranother.com> (http://jasonframe.co.uk)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaz303/interaction-timeout/issues"
+  },
+  "homepage": "https://github.com/jaz303/interaction-timeout"
+}
