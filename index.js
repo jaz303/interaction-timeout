@@ -1,4 +1,4 @@
-module.exports = function(fn, timeInMilliseconds) {
+module.exports = function(fn, timeInMilliseconds, events) {
 
     var state = 'idle';
     var timer = null;
@@ -9,8 +9,9 @@ module.exports = function(fn, timeInMilliseconds) {
         }
     }
 
-    document.body.addEventListener('mousedown', handleInteraction, true);
-    document.body.addEventListener('touchstart', handleInteraction, true);
+    (events || ['mousedown', 'touchstart']).forEach(function(evtName) {
+        document.body.addEventListener(evtName, handleInteraction, true);
+    });
 
     function activate() {
         clear();
