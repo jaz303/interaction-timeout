@@ -8,6 +8,8 @@ Compatibility notes: `interaction-timeout` uses event capturing and is therefore
 
     npm install --save interaction-timeout
 
+There's also a UMD build in the `build` directory.
+
 ## Require it
 
 	var interactionTimeout = require('interaction-timeout');
