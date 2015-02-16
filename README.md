@@ -14,6 +14,8 @@ There's also a UMD build in the `build` directory.
 
 	var interactionTimeout = require('interaction-timeout');
 
+If you're using the UMD build the exported symbol is `interactionTimeout`.
+
 ## API
 
 #### `var timer = interactionTimeout(fn, delay, [events])`
