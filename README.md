@@ -2,6 +2,8 @@
 
 `interaction-timeout` creates a timeout object that will call a user-supplied function when the user has not interacted with the document for a given period of time. Useful for creating screensaver and attractors in exhibition/kiosk installations.
 
+Compatibility notes: `interaction-timeout` uses event capturing and is therefore not compatible with IE < 9.
+
 ## Install it
 
     npm install --save interaction-timeout
