@@ -1,6 +1,6 @@
 {
   "name": "interaction-timeout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Trigger a timeout when user has not interacted with document for a period of time",
   "main": "index.js",
   "scripts": {
